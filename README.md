@@ -2,22 +2,26 @@
 
 # 👋 Welcome to my bug collection.
 
+<img src="https://gamestuff.id/yes-oh.gif" width="280" alt="Thinking">
+
 <br>
 </div>
 
-<img src="https://gamestuff.id/yes-oh.gif" width="280" alt="Thinking">
-
-My daily priorities:
-1. Games
-2. Facebook
-3. Sleep
-4. Panic
-5. Code (optional)
 <br>
 
-## Booting developer
+## About Me
 
-<a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&duration=3000&pause=1000&width=435&lines=I+write+code.;Sometimes+it+works.;Sometimes+it+becomes+another+SVG+for+this+README." alt="Typing SVG" /></a>
+People think I'm a full-time programmer.
+
+Reality says otherwise.
+
+- 🎮 Gaming until "just one more match" becomes three hours.
+- 📱 Scrolling Facebook for "five minutes."
+- 😴 Taking strategic naps.
+- 💻 Writing code whenever inspiration shows up.
+- 🐛 Accidentally creating tomorrow's bugs.
+
+It's an efficient system.
 
 <p align="center">
     <img src="assets/vscode.svg" alt="VS Code Simulator">
