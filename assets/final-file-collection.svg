@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg"
+     width="1200"
+     height="520"
+     viewBox="0 0 1200 520">
+
+<style>
+
+text{
+font-family:'Segoe UI',Arial,sans-serif;
+fill:#d4d4d4;
+}
+
+.title{
+font-size:22px;
+font-weight:bold;
+}
+
+.small{
+font-size:17px;
+font-family:Consolas,monospace;
+}
+
+.folder{
+font-size:19px;
+font-weight:bold;
+}
+
+@keyframes blink{
+50%{opacity:0;}
+}
+
+#cursor{
+animation:blink 1s step-end infinite;
+}
+
+</style>
+
+<rect width="1200"
+      height="520"
+      fill="#1e1e1e"/>
+
+<rect width="1200"
+      height="48"
+      fill="#2d2d30"/>
+
+<text x="30"
+      y="31"
+      class="title">
+
+📁 Final File Collection
+
+</text>
+
+<line x1="0"
+      y1="48"
+      x2="1200"
+      y2="48"
+      stroke="#3c3c3c"/>
+
+<!-- Explorer -->
+
+<rect x="40"
+      y="80"
+      width="1120"
+      height="390"
+      rx="10"
+      fill="#252526"
+      stroke="#3c3c3c"/>
+
+<text x="65"
+      y="115"
+      class="folder">
+
+📁 Downloads
+
+</text>
+
+<text x="90"
+      y="155"
+      class="small">
+
+📦 project-final.zip
+
+</text>
+
+<text x="90"
+      y="185"
+      class="small">
+
+📦 project-final-v2.zip
+
+</text>
+
+<text x="90"
+      y="215"
+      class="small">
+
+📦 project-final-v2-fixed.zip
+
+</text>
+
+<text x="90"
+      y="245"
+      class="small">
+
+📦 project-final-v2-fixed-real.zip
+
+</text>
+
+<text x="90"
+      y="275"
+      class="small">
+
+📦 project-final-v2-fixed-real-final.zip
+
+</text>
+
+<text x="90"
+      y="305"
+      class="small">
+
+📦 project-final-v2-fixed-real-final-please.zip
+
+</text>
+
+<text x="90"
+      y="335"
+      class="small">
+
+📦 project-final-v2-fixed-real-final-please-use-this.zip
+
+</text>
+
+<text x="90"
+      y="365"
+      class="small">
+
+📦 project-final-v2-fixed-real-final-please-use-this-2.zip
+
+</text>
+
+<text x="90"
+      y="395"
+      class="small">
+
+📦 final.zip
+
+</text>
+
+<text x="90"
+      y="425"
+      class="small">
+
+📦 final_final.zip
+
+</text>    
+
+<!-- Selected File -->
+
+<rect x="70"
+      y="409"
+      width="700"
+      height="28"
+      rx="4"
+      fill="#094771"/>
+
+<!-- Properties -->
+
+<rect x="760"
+      y="105"
+      width="360"
+      height="280"
+      rx="8"
+      fill="#1e1e1e"
+      stroke="#3c3c3c"/>
+
+<text x="785"
+      y="140"
+      class="folder">
+
+📄 File Details
+
+</text>
+
+<text x="785"
+      y="180"
+      class="small">
+
+Name:
+
+project-final-v2-fixed-...
+
+</text>
+
+<text x="785"
+      y="205"
+      class="small"
+      fill="#858585">
+
+...there's more.
+
+</text>
+
+<text x="785"
+      y="245"
+      class="small">
+
+Created:
+
+Yesterday
+
+</text>
+
+<text x="785"
+      y="285"
+      class="small">
+
+Modified:
+
+5 minutes ago
+
+</text>
+
+<text x="785"
+      y="325"
+      class="small">
+
+Status:
+
+🤞 Trust me bro.
+
+</text>
+
+<text x="785"
+      y="365"
+      class="small"
+      fill="#d16969">
+
+Confidence: 2%
+
+</text>
+
+</svg>
