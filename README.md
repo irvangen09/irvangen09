@@ -16,7 +16,7 @@ People think I'm a full-time programmer.
 Reality says otherwise.
 
 - 🎮 Gaming until "just one more match" becomes three hours.
-- 📱 Scrolling Facebook for "five minutes."
+- 📱 Scrolling Facebook for five hours.
 - 😴 Taking strategic naps.
 - 💻 Writing code whenever inspiration shows up.
 - 🐛 Accidentally creating tomorrow's bugs.
