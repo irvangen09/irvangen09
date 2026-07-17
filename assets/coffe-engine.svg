@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg"
+     width="1200"
+     height="520"
+     viewBox="0 0 1200 520">
+
+<style>
+
+text{
+font-family:'Segoe UI',Arial,sans-serif;
+fill:#d4d4d4;
+}
+
+.title{
+font-size:22px;
+font-weight:bold;
+}
+
+.label{
+font-size:18px;
+}
+
+.value{
+font-size:18px;
+font-weight:bold;
+}
+
+.small{
+font-size:16px;
+font-family:Consolas,monospace;
+}
+
+@keyframes coffee{
+0%{width:20px;}
+40%{width:360px;}
+55%{width:360px;}
+100%{width:20px;}
+}
+
+#coffee{
+animation:coffee 8s linear infinite;
+}
+
+</style>
+
+<rect width="1200"
+      height="520"
+      fill="#1e1e1e"/>
+
+<rect width="1200"
+      height="48"
+      fill="#2d2d30"/>
+
+<text x="30"
+      y="31"
+      class="title">
+
+☕ Coffee Engine v2.0
+
+</text>
+
+<line x1="0"
+      y1="48"
+      x2="1200"
+      y2="48"
+      stroke="#3c3c3c"/>
+
+<!-- Coffee Level -->
+
+<text x="40" y="105" class="label">☕ Coffee Tank</text>
+
+<rect x="40"
+      y="120"
+      width="420"
+      height="14"
+      rx="7"
+      fill="#333333"/>
+
+<rect id="coffee"
+      x="40"
+      y="120"
+      width="360"
+      height="14"
+      rx="7"
+      fill="#8b5a2b"/>
+
+<text x="490"
+      y="132"
+      class="value">
+98%
+</text>
+
+<!-- Effects -->
+
+<text x="40" y="190" class="label">⚡ Coding Speed</text>
+<text x="490" y="190" class="value">+250%</text>
+
+<text x="40" y="240" class="label">🐛 Bug Resistance</text>
+<text x="490" y="240" class="value">+1%</text>
+
+<text x="40" y="290" class="label">😴 Sleep</text>
+<text x="490" y="290" class="value">-100%</text>
+
+<text x="40" y="340" class="label">💸 Wallet</text>
+<text x="490" y="340" class="value">Destroyed</text>
+
+<!-- Coffee Mug -->
+
+<circle cx="910"
+        cy="210"
+        r="70"
+        fill="#8b5a2b"/>
+
+<circle cx="910"
+        cy="210"
+        r="52"
+        fill="#3a2414"/>
+
+<circle cx="980"
+        cy="210"
+        r="22"
+        fill="none"
+        stroke="#bdbdbd"
+        stroke-width="10"/>
+
+<!-- Terminal -->
+
+<rect x="560"
+      y="90"
+      width="580"
+      height="320"
+      rx="10"
+      fill="#181818"
+      stroke="#303030"/>
+
+<text x="590"
+      y="130"
+      class="small"
+      fill="#9cdcfe">
+
+PS C:\Users\irvangen09&gt; brew coffee
+
+</text>
+
+<text x="590"
+      y="170"
+      class="small">
+
+Loading caffeine...
+
+</text>
+
+<rect x="590"
+      y="188"
+      width="420"
+      height="10"
+      rx="5"
+      fill="#333"/>
+
+<rect x="590"
+      y="188"
+      width="0"
+      height="10"
+      rx="5"
+      fill="#8b5a2b">
+
+    <animate
+        attributeName="width"
+        values="0;420;420;0"
+        dur="8s"
+        repeatCount="indefinite"/>
+
+</rect>
+
+<text x="590"
+      y="245"
+      class="small"
+      fill="#8fd18f">
+
+✔ Coffee detected.
+
+</text>
+
+<text x="590"
+      y="280"
+      class="small">
+
+Developer performance increased.
+
+</text>
+
+<text x="590"
+      y="315"
+      class="small"
+      fill="#d16969">
+
+Side Effect:
+Cannot sleep for 72 hours.
+
+</text>
+
+<text x="590"
+      y="350"
+      class="small"
+      fill="#d7ba7d">
+
+Recommended dosage: 3 cups / commit
+
+</text>
+
+<text x="590"
+      y="385"
+      class="small"
+      fill="#9cdcfe">
+
+Warning: Productivity not guaranteed.
+
+</text>
+
+<text x="590"
+      y="430"
+      class="small"
+      fill="#d4d4d4">
+
+PS C:\Users\irvangen09&gt;
+
+</text>
+
+<rect id="cursor"
+      x="795"
+      y="416"
+      width="8"
+      height="18"
+      fill="#ffffff">
+
+    <animate
+        attributeName="opacity"
+        values="1;0;1"
+        dur="1s"
+        repeatCount="indefinite"/>
+
+</rect>
+
+</svg>

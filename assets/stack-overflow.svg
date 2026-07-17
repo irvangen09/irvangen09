@@ -1,0 +1,286 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg"
+     width="1200"
+     height="520"
+     viewBox="0 0 1200 520">
+
+<style>
+
+text{
+font-family:'Segoe UI',Arial,sans-serif;
+fill:#d4d4d4;
+}
+
+.title{
+font-size:22px;
+font-weight:bold;
+}
+
+.label{
+font-size:18px;
+}
+
+.small{
+font-size:16px;
+font-family:Consolas,monospace;
+}
+
+@keyframes progress{
+0%{width:0;}
+40%{width:420px;}
+55%{width:420px;}
+100%{width:0;}
+}
+
+#progress{
+animation:progress 8s linear infinite;
+}
+
+@keyframes blink{
+50%{opacity:0;}
+}
+
+#cursor{
+animation:blink 1s step-end infinite;
+}
+
+</style>
+
+<rect width="1200"
+      height="520"
+      fill="#1e1e1e"/>
+
+<rect width="1200"
+      height="48"
+      fill="#2d2d30"/>
+
+<text x="30"
+      y="31"
+      class="title">
+
+🌐 Stack Overflow Simulator
+
+</text>
+
+<line x1="0"
+      y1="48"
+      x2="1200"
+      y2="48"
+      stroke="#3c3c3c"/>
+
+<!-- Search Box -->
+
+<text x="40"
+      y="100"
+      class="label">
+
+🔍 Search
+
+</text>
+
+<rect x="40"
+      y="118"
+      width="520"
+      height="42"
+      rx="8"
+      fill="#252526"
+      stroke="#3c3c3c"/>
+
+<text x="58"
+      y="145"
+      class="small">
+
+How to center a div
+
+</text>
+
+<rect id="cursor"
+      x="232"
+      y="132"
+      width="8"
+      height="16"
+      fill="#ffffff">
+
+    <animate
+        attributeName="opacity"
+        values="1;0;1"
+        dur="1s"
+        repeatCount="indefinite"/>
+
+</rect>
+
+<!-- Question -->
+
+<text x="40"
+      y="220"
+      class="label">
+
+Question
+
+</text>
+
+<text x="40"
+      y="250"
+      class="small">
+
+Why doesn't my code work?
+
+</text>
+
+<!-- Answer -->
+
+<text x="40"
+      y="330"
+      class="label">
+
+Top Answer
+
+</text>
+
+<text x="40"
+      y="360"
+      class="small">
+
+"It works on my machine."
+
+</text>
+
+<text x="40"
+      y="392"
+      class="small"
+      fill="#f48024">
+
+👍 18.2k
+
+</text>
+
+<!-- Comments -->
+
+<text x="620"
+      y="100"
+      class="label">
+
+Comments
+
+</text>
+
+<text x="620"
+      y="140"
+      class="small">
+
+• Works on my machine.
+
+</text>
+
+<text x="620"
+      y="175"
+      class="small">
+
+• Marked as duplicate.
+
+</text>
+
+<text x="620"
+      y="210"
+      class="small">
+
+• Nevermind, fixed it.
+
+</text>
+
+<!-- Accepted Answer -->
+
+<rect x="610"
+      y="270"
+      width="520"
+      height="170"
+      rx="10"
+      fill="#252526"
+      stroke="#3c3c3c"/>
+
+<text x="635"
+      y="305"
+      class="label"
+      fill="#8fd18f">
+
+✔ Accepted Answer
+
+</text>
+
+<text x="635"
+      y="345"
+      class="small">
+
+"I fixed it."
+
+</text>
+
+<text x="635"
+      y="380"
+      class="small"
+      fill="#858585">
+
+(no explanation)
+
+</text>
+
+<text x="635"
+      y="420"
+      class="small"
+      fill="#d16969">
+
+💀 18,472 people said thanks.
+
+</text>
+
+<!-- Popup -->
+
+<g>
+
+    <animateTransform
+        attributeName="transform"
+        type="translate"
+        values="0,-15;0,0;0,0;0,-15"
+        dur="8s"
+        repeatCount="indefinite"/>
+
+    <rect x="770"
+          y="38"
+          width="340"
+          height="70"
+          rx="8"
+          fill="#2d2d30"
+          stroke="#3c3c3c"/>
+
+    <text x="790"
+          y="66"
+          class="small"
+          fill="#ffffff">
+
+⚠ Moderator Action
+
+    </text>
+
+    <text x="790"
+          y="88"
+          class="small"
+          fill="#f2cc60">
+
+Marked as duplicate.
+
+    </text>
+
+</g>
+
+<!-- Footer -->
+
+<text x="40"
+      y="485"
+      class="small"
+      fill="#858585">
+
+Final Update: It was a typo.
+
+</text>
+
+</svg>
