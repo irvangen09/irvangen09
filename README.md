@@ -29,20 +29,6 @@ It's an efficient system.
 
 <br>
 
-## Daily Routine
-
-99 little bugs in the code.
-
-Take one down, patch it around...
-
-127 bugs in the code.
-
-<p align="center">
-    <img src="assets/bug-generator.svg" alt="Bug Generator">
-</p>
-
-<br>
-
 ## Research Process
 
 I came for one answer.
