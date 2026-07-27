@@ -1,6 +1,6 @@
 <div align="center">
 
-# 👋 Welcome to my bug collection.
+# Welcome to my bug collection 👋
 
 <img src="https://gamestuff.id/yes-oh.gif" width="280" alt="Thinking">
 
@@ -15,11 +15,11 @@ People think I'm a full-time programmer.
 
 Reality says otherwise.
 
-- 🎮 Gaming until "just one more match" becomes three hours.
-- 📱 Scrolling Facebook for five hours.
-- 😴 Taking strategic naps.
-- 💻 Writing code whenever inspiration shows up.
-- 🐛 Accidentally creating tomorrow's bugs.
+- Gaming until "just one more match" becomes three hours.
+- Scrolling Facebook for five hours.
+- Taking strategic naps.
+- Writing code whenever inspiration shows up.
+- Accidentally creating tomorrow's bugs.
 
 It's an efficient system.
 
