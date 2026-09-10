@@ -2,8 +2,6 @@
 
 # Welcome to my bug collection 👋
 
-<img src="https://gamestuff.id/yes-oh.gif" width="280" alt="Thinking">
-
 <br>
 </div>
 
