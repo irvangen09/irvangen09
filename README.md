@@ -1,6 +1,6 @@
 <div align="center">
 
-# Welcome to my bug collection 👋
+# Welcome to my bug collection
 
 <br>
 </div>
